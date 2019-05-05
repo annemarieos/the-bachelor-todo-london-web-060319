@@ -28,7 +28,7 @@ def count_contestants_by_hometown(data, hometown)
       end
     end
   end
-  count     
+  count
 end
 
 def get_occupation(data, hometown)
@@ -38,7 +38,7 @@ def get_occupation(data, hometown)
       if contestant_hash["hometown"] == hometown
         return contestant_hash["occupation"]
       end
-    end 
+    end
   end   
 end
 
